@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5656023265,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open Google Chrome and navigate to Gmail page",
+            "match": {
+              "location": "step_definition.open_Google_Chrome_and_navigate_to_Gmail_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10302230860,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logs in using username as \"abhinabaghosh.1994@gmail.com\" and password as \"Abhi@2002\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abhinabaghosh.1994@gmail.com",
+                  "offset": 32
+                },
+                {
+                  "val": "Abhi@2002",
+                  "offset": 79
+                }
+              ],
+              "location": "step_definition.user_logs_in_using_username_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8098186566,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login should be successful",
+            "match": {
+              "location": "step_definition.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8451654753,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User presses Sign Out button",
+            "match": {
+              "location": "step_definition.user_presses_Sign_Out_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login_success.feature"
+  }
+]

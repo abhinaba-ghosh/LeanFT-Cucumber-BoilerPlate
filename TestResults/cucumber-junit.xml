@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.508095">
+<testcase classname="Login" name="Successful Login with Valid Credentials" time="32.508095">
+<system-out><![CDATA[Given open Google Chrome and navigate to Gmail page.........................passed
+When User logs in using username as "abhinabaghosh.1994@gmail.com" and password as "Abhi@2002".passed
+Then login should be successful.............................................passed
+Then User presses Sign Out button...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
