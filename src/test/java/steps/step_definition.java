@@ -21,8 +21,8 @@ public class step_definition {
     homePage homepage=new homePage(browser);
 
 
-    @Given("^open Google Chrome and navigate to Gmail page$")
-    public void open_Google_Chrome_and_navigate_to_Gmail_page() throws Throwable {
+    @Given("^open Google Chrome and navigate to LinkedIn page$")
+    public void open_Google_Chrome_and_navigate_to_LinkedIn_page() throws Throwable {
         System.out.println("This step will navigate to Gamil Page");
 
         page.setBrowser();
